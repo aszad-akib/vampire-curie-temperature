@@ -1,0 +1,12 @@
+#===================================================
+# Material file: cobalt, nearest-neighbour exchange
+# J_ij and mu_s for Co from Evans et al., Phys. Rev. B 91, 144425 (2015)
+# (fitted for hcp Co, which like fcc has 12 nearest neighbours)
+#===================================================
+material:num-materials = 1
+material[1]:material-name = Co
+material[1]:damping-constant = 1.0
+material[1]:exchange-matrix[1] = 6.064e-21      # J_ij in Joules (nearest neighbours)
+material[1]:atomic-spin-moment = 1.72 !muB
+material[1]:uniaxial-anisotropy-constant = 6.69e-24
+material[1]:material-element = Co

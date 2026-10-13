@@ -1,0 +1,107 @@
+[33m[33m[0m[0m                                                _          
+                                               (_)         
+                    __   ____ _ _ __ ___  _ __  _ _ __ ___ 
+                    \ \ / / _` | '_ ` _ \| '_ \| | '__/ _ \
+                     \ V / (_| | | | | | | |_) | | | |  __/
+                      \_/ \__,_|_| |_| |_| .__/|_|_|  \___|
+                                         | |               
+                                         |_|               
+
+                      Version 7.0.0 Oct 13 2026 19:10:22
+
+             Git commit: 525bc27ee44c525aee229570f30f3d4c61d54f66
+
+  Licensed under the GNU Public License(v2). See licence file for details.
+
+  Developers:   Richard F L Evans, Sarah Jenkins, Andrea Meo, 
+                Daniel Meilak, Andrew Naden, Matthew Ellis,
+                Oscar Arbelaez, Sam Morris, Rory Pond, Weijia Fan,
+                Phanwadee Chureemart, Pawel Sobieszczyk, Joe Barker, 
+                Thomas Ostler, Andreas Biternas, Roy W Chantrell,
+                Wu Hong-Ye, Razvan Ababei, Sam Westmoreland,
+                Milton Persson
+ 
+                Compiled with:  GNU C++ Compiler
+                Compiler Flags: 
+
+  Vampire includes a copy of the qhull library from C.B. Barber and The 
+  Geometry Center and may be obtained via http from www.qhull.org.
+
+================================================================================
+Tue Oct 13 19:38:24 2026
+================================================================================
+Initialising system variables
+Creating system
+Generating neighbour list..........[32m[32mdone!
+[0m[0mCopying system data to optimised data structures.
+Using generic/normalised form of exchange interaction with 16 total interactions.
+Number of atoms generated: 5488
+Starting Simulation with Program Curie-Temperature...
+0          	1          	
+25         	0.991809   	
+50         	0.983555   	
+75         	0.975117   	
+100        	0.966586   	
+125        	0.957825   	
+150        	0.949127   	
+175        	0.940526   	
+200        	0.931394   	
+225        	0.921976   	
+250        	0.912592   	
+275        	0.902962   	
+300        	0.894394   	
+325        	0.882875   	
+350        	0.874659   	
+375        	0.863596   	
+400        	0.852442   	
+425        	0.843163   	
+450        	0.831754   	
+475        	0.820201   	
+500        	0.809538   	
+525        	0.795541   	
+550        	0.784406   	
+575        	0.771853   	
+600        	0.759216   	
+625        	0.745269   	
+650        	0.730919   	
+675        	0.71686    	
+700        	0.700596   	
+725        	0.684905   	
+750        	0.667512   	
+775        	0.652272   	
+800        	0.631696   	
+825        	0.60911    	
+850        	0.587849   	
+875        	0.565465   	
+900        	0.538981   	
+925        	0.506633   	
+950        	0.472234   	
+975        	0.427132   	
+1000       	0.38088    	
+1025       	0.329779   	
+1050       	0.240713   	
+1075       	0.144574   	
+1100       	0.0902732  	
+1125       	0.0697933  	
+1150       	0.0602848  	
+1175       	0.055846   	
+1200       	0.047985   	
+1225       	0.0441777  	
+1250       	0.0417534  	
+1275       	0.039795   	
+1300       	0.0352323  	
+1325       	0.0345619  	
+1350       	0.0322567  	
+1375       	0.0316085  	
+1400       	0.0301767  	
+1425       	0.0298529  	
+1450       	0.028332   	
+1475       	0.0277974  	
+1500       	0.0281483  	
+Simulation run time [s]: 638.665
+Monte Carlo statistics:
+	Total moves: 1673840000
+	52.6572% Accepted
+	47.3428% Rejected
+[32m[32mSimulation ended gracefully.
+[0m[0m

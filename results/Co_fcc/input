@@ -1,0 +1,31 @@
+#------------------------------------------
+# Curie temperature of fcc Co with Monte Carlo
+#------------------------------------------
+create:crystal-structure = fcc
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+create:periodic-boundaries-z
+
+dimensions:unit-cell-size = 3.54 !A
+dimensions:system-size-x = 4.0 !nm
+dimensions:system-size-y = 4.0 !nm
+dimensions:system-size-z = 4.0 !nm
+
+material:file = Co.mat
+
+# temperature sweep 0 -> 1800 K in 25 K steps
+sim:program = curie-temperature
+sim:integrator = monte-carlo
+sim:minimum-temperature = 0.0
+sim:maximum-temperature = 1800.0
+sim:temperature-increment = 25.0
+sim:time-steps-increment = 1
+sim:equilibration-time-steps = 2000
+sim:loop-time-steps = 3000
+
+output:temperature
+output:mean-magnetisation-length
+output:mean-susceptibility
+
+screen:temperature
+screen:mean-magnetisation-length

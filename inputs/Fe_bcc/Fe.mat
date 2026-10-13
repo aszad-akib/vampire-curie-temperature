@@ -1,0 +1,11 @@
+#===================================================
+# Material file: bcc iron, nearest-neighbour exchange
+# J_ij and mu_s from Evans et al., J. Phys.: Condens. Matter 26, 103202 (2014)
+#===================================================
+material:num-materials = 1
+material[1]:material-name = Fe
+material[1]:damping-constant = 1.0
+material[1]:exchange-matrix[1] = 7.050e-21      # J_ij in Joules (nearest neighbours)
+material[1]:atomic-spin-moment = 2.22 !muB
+material[1]:uniaxial-anisotropy-constant = 5.65e-25
+material[1]:material-element = Fe
